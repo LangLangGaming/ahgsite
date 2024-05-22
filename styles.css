@@ -1,0 +1,140 @@
+body {
+    background-image: url(assets/therealamericanflag.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(61, 61, 61);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    color: #fff;
+}
+a:link {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.header {
+    display: flex;
+    color: orange;
+    font-family: 'Roboto Condensed';
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.navigation {
+    display: flex;
+    font-family: 'Open Sans';
+    font-size:25px;
+    text-align: center;
+    justify-content: center;
+    margin-top:-20px;
+}
+.line{
+    color: white;
+    font-family: 'Open Sans';
+    text-align:center;
+    font-size: 35px;
+    margin-top: -10px
+}
+.copyright{
+    color: white;
+    text-align:center;
+    font-family: 'Open Sans';
+    margin-top:-10px;
+}
+.content {
+    border-color: rgb(34, 34, 34);
+    border-left: rgba(255, 255, 255, 0);
+    border-bottom: rgba(255, 255, 255, 0);
+    border-top: rgba(255, 255, 255, 0);
+    border-right: rgba(255, 255, 255, 0);
+    border-style: solid;
+    background-color: rgba(14, 14, 14, 0.293);
+    width: 1200px;
+    display: block;
+    font-size: 30px;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Balsamiq Sans';
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgba(14, 14, 14, 0.347);
+    margin-top: -20px;
+}
+.staff {
+    text-align:center;
+    font-family: 'Roboto Condensed';
+    font-size: 50px;    
+
+}
+.rankname {
+    border-color: rgb(34, 34, 34);
+    border-left: rgba(255, 255, 255, 0);
+    border-bottom: rgba(255, 255, 255, 0);
+    border-top: rgba(255, 255, 255, 0);
+    border-right: rgba(255, 255, 255, 0);
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0);
+    width: 1200px;
+    display: block;
+    font-size: 35px;
+    margin: 1 auto;
+    color: rgb(255, 0, 0);
+    font-family: 'Montserrat';
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: 300px;
+    margin-top: -50px;
+    margin-bottom: 30px
+}
+.staffname {
+    border-color: rgb(34, 34, 34);
+    border-left: rgba(255, 255, 255, 0);
+    border-bottom: rgba(255, 255, 255, 0);
+    border-top: rgba(255, 255, 255, 0);
+    border-right: rgba(255, 255, 255, 0);
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0);
+    width: 1200px;
+    display: block;
+    font-size: 30px;
+    margin: 1 auto;
+    color: orange;
+    font-family: 'Montserrat';
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: 300px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+.image{
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    display:block;
+    margin:0 auto;
+    margin-bottom: 40px;
+}
